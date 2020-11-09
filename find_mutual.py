@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import psycopg2
 
 #help taken from https://stackoverflow.com/questions/60889087/how-to-fetch-data-from-postgresql-database-using-flask-and-display-html-tables
-con=psycopg2.connect(database="test",user="postgres",password="Kankade",host="127.0.0.1",port="5432")
+con=psycopg2.connect(database="test",user="postgres",password="",host="127.0.0.1",port="5432")
 cursor=con.cursor()
 
 app=Flask(__name__)
